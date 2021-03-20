@@ -43,3 +43,20 @@
 #     return counter
 #
 # print(num_of_words(Sample_List))
+
+# 7. Write a Python program to remove duplicates from a list.
+
+# a = [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
+#
+#
+# def remove_dup(words):
+#     dup_items = set()
+#     uni_items = []
+#     for word in words:
+#         if word not in uni_items:
+#             uni_items.append(word)
+#             dup_items.add(word)
+#     return [uni_items, dup_items]
+#
+#
+# print(remove_dup(a))
